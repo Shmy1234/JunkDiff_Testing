@@ -1,0 +1,27 @@
+{
+  "name": "pull-request-reviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shmy1234/JunkDiff_Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shmy1234/JunkDiff_Testing/issues"
+  },
+  "homepage": "https://github.com/Shmy1234/JunkDiff_Testing#readme",
+  "dependencies": {
+    "@octokit/auth-app": "^8.2.0",
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
